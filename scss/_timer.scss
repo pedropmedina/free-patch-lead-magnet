@@ -1,0 +1,59 @@
+.counter {
+  background: url("https://cdn2.hubspot.net/hubfs/3019581/promobar.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  font-family: open sans, sans-serif;
+  padding: 10px 0;
+  font-weight: 800;
+
+  .timer-div {
+    text-align: center;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 5px;
+
+      .number {
+        font-size: 19px;
+      }
+
+      .descriptor {
+        font-size: 11px;
+      }
+    }
+
+    div>span {
+      display: block;
+    }
+
+    * {
+      color: #122C43;
+    }
+  }
+}
+
+#hurry {
+  color: #122C43;
+  font-size: 26px;
+}
+
+#memorial-day-sale-text {
+  font-size: 19px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  #memorial-day-sale-text {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  #hurry {
+    font-size: 21px;
+  }
+}

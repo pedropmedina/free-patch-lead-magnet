@@ -1,0 +1,93 @@
+.video-thumbnail {
+  position: relative;
+}
+
+.play-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.video-play-button {
+  width: 32px;
+  height: 44px;
+  padding: 18px 20px 18px 28px;
+  box-sizing: content-box;
+  border-radius: 50%;
+  background-color: $ricoma-orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  z-index: 10;
+}
+
+.video-play-button:hover {
+  cursor: pointer;
+}
+
+.video-play-button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: $ricoma-orange;
+  border-radius: 200%;
+  animation: pulse-border 2500ms ease-out infinite;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+    opacity: 0;
+  }
+}
+
+#video-modal {
+  .modal-content {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .modal-header {
+    border-bottom: none;
+    * {
+      color: white;
+      opacity: 1;
+    }
+  }
+
+  .modal-dialog .modal-body {
+    padding-top: 0;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+    iframe {
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+  }
+}

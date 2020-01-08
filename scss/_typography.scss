@@ -1,0 +1,45 @@
+.title {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 81px;
+}
+
+.subtitle {
+  height: 81px;
+  width: 487px;
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.title-secondary {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 45px;
+  font-weight: 800;
+  line-height: 57px;
+
+  &.white {
+    color: #ffffff;
+    text-align: center;
+  }
+}
+
+p,
+li {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: 'Open Sans';
+  font-size: 12px;
+  line-height: 31px;
+}
