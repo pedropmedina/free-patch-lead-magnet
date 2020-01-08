@@ -1,15 +1,10 @@
 body {
-  // background: linear-gradient(90deg, #ff7200 0%, #fc9500 100%);
   background: rgb(252, 149, 0);
   line-height: 30px;
-
-  .main-container {
-    background-image: url('https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/white-pattern-bg.png');
-    background-position: center;
-    background-size: contain;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
+  background-image: url('https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/white-pattern-bg.png');
+  background-position: center;
+  background-size: contain;
+  margin: 0 auto;
 }
 
 .footer {
@@ -17,18 +12,18 @@ body {
   background-position: top;
   background-size: cover;
   background-repeat: repeat;
+}
 
-  footer {
-    .list {
-      border-radius: 10px;
-      background-color: #ffffff;
-      box-shadow: 0 14px 15px 6px rgba(0, 0, 0, 0.2);
+footer {
+  .list {
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 14px 15px 6px rgba(0, 0, 0, 0.2);
 
-      .item {
-        img {
-          height: 33px;
-          width: 38px;
-        }
+    .item {
+      img {
+        height: 33px;
+        width: 38px;
       }
     }
   }
