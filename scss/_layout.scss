@@ -7,6 +7,15 @@ body {
   margin: 0 auto;
 }
 
+#hero {
+  .img-container {
+    @media screen and (max-width: 576px) {
+      width: 218px;
+      margin: 0 auto;
+    }
+  }
+}
+
 .footer {
   background-image: url('https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/orange-circles-bg.png');
   background-position: top;

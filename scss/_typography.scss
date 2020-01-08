@@ -4,16 +4,25 @@
   font-size: 70px;
   font-weight: 800;
   line-height: 81px;
+
+  @media screen and (max-width: 576px) {
+    font-size: 45px;
+    line-height: 55px;
+  }
 }
 
 .subtitle {
-  height: 81px;
-  width: 487px;
   color: #000000;
   font-family: 'Open Sans';
   font-size: 26px;
   font-weight: bold;
   line-height: 36px;
+
+  @media screen and (max-width: 576px) {
+    font-size: 26px;
+    line-height: 33px;
+    font-weight: 300;
+  }
 }
 
 .title-secondary {
@@ -26,6 +35,12 @@
   &.white {
     color: #ffffff;
     text-align: center;
+  }
+
+  @media screen and (max-width: 576px) {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45px;
   }
 }
 

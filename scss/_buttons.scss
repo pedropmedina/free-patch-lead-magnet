@@ -34,4 +34,8 @@
       background-color: #dd6401 !important;
     }
   }
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
 }
