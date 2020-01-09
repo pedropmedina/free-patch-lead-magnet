@@ -49,19 +49,19 @@
     <div class="container-fluid">
       <div class="container">
         <!-- header -->
-        <header class="pt-4 mb-4 mb-sm-5 header">
-          <div>
+        <header class="pt-4 mb-4 mb-sm-5" id="header">
+          <div class="logo">
             <img
               src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/ricoma-logo-grey.svg"
               alt="Ricoma Logo"
-              class="mx-auto d-block d-sm-inline"
+              class="d-sm-inline img-fluid"
             />
           </div>
         </header>
         <!-- hero -->
         <div id="hero" class="row">
           <div class="col-lg-6 col-md-12 pl-0 mb-sm-3 text-center text-sm-left">
-            <div>
+            <div class="img-container">
               <img
                 src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/get-your-free.svg"
                 alt="Get your free patch text"
@@ -148,30 +148,36 @@
           </div>
         </div>
         <!-- hub -->
-        <div class="row mb-5 mb-sm-3 pane-1">
+        <div class="row mb-5 mb-sm-3">
           <div class="col-lg-7 col-md-12 align-self-end">
-            <h3 class="title-secondary text-sm-left text-center heading-1">
+            <h3 class="title-secondary text-sm-left text-center mb-sm-4">
               What is Embroidery Hub?
             </h3>
-            <div>
-              <p class="mb-4">
-                Embroidery Hub is Ricoma's educational YouTube series, which
-                covers everything from embroidery tips to best practices for
-                using your embroidery machine! Hosted by Ricoma's very own
-                content manager, Laura Gomez,
-                <b> you'll become an embroidery pro in no time</b>
-                as you follow along at home with your own embroidery machine!
-              </p>
-              <p class="mb-4">
-                With the show's increasing popularity, we decided to create a
-                new Embroidery Hub logo patch to gift it to our loyal viewers.
-              </p>
+            <!-- show in small screen -->
+            <div class="d-block d-lg-none mb-4">
+              <img
+                class="img-fluid"
+                src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/laura.png"
+                alt="Laura"
+              />
             </div>
+            <p class="mb-4">
+              Embroidery Hub is Ricoma's educational YouTube series, which
+              covers everything from embroidery tips to best practices for using
+              your embroidery machine! Hosted by Ricoma's very own content
+              manager, Laura Gomez,
+              <b> you'll become an embroidery pro in no time</b>
+              as you follow along at home with your own embroidery machine!
+            </p>
+            <p class="mb-4">
+              With the show's increasing popularity, we decided to create a new
+              Embroidery Hub logo patch to gift it to our loyal viewers.
+            </p>
             <button type="button" class="button orange">
               Get my free patch
             </button>
           </div>
-          <div class="col-lg-5 col-md-12 mt-sm-3 img-container-1">
+          <div class="col-lg-5 d-none d-lg-block">
             <img
               class="img-fluid"
               src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/laura.png"
@@ -183,9 +189,17 @@
         <!-- experience -->
         <div class="row mb-4 py-5 pane-2">
           <div class="col-lg-6 col-md-12">
-            <h3 class="title-secondary mb-4 text-sm-left text-center heading-2">
+            <h3 class="title-secondary mb-sm-4 text-sm-left text-center">
               Experience Ricoma quality first-hand
             </h3>
+            <!-- show in small screen -->
+            <div class="d-lg-none d-block mb-4">
+              <img
+                class="img-fluid"
+                src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/machine.png"
+                alt="Machine"
+              />
+            </div>
             <p class="mb-4">
               To say thank you for showing your support, we are giving away a
               FREE exclusive Embroidery Hub patch, made right on one of our
@@ -201,7 +215,7 @@
               I want a sample
             </button>
           </div>
-          <div class="col-lg-6 col-md-12 order-md-first img-container-2">
+          <div class="col-lg-6 order-md-first d-none d-lg-block">
             <img
               class="img-fluid"
               src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/machine.png"
@@ -220,57 +234,58 @@
               This is for you if…
             </h4>
           </div>
-          <div class="col-sm-10 mx-auto mb-4">
-            <ul class="list-unstyled list p-5">
-              <li
-                class="item row mb-3 flex-nowrap align-items-center align-items-sm-start"
-              >
-                <img
-                  class="col-sm-1"
-                  src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
-                  alt="don'ts"
-                />
-                <p class="col-sm-10">
+          <div class="col-12 col-md-10 mx-auto mb-4">
+            <ul class="list-unstyled list p-4 p-md-5">
+              <li class="item row mb-3">
+                <div class="col-12 col-md-2 text-center mb-4 mb-md-0">
+                  <img
+                    class="img-fluid"
+                    src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
+                    alt="don'ts"
+                  />
+                </div>
+                <p class="col-12 col-md-10 pl-0 text-center text-md-left">
                   You are a fan of our educational YouTube series, Embroidery
                   Hub, and want to sport this exclusive patch on a bag or shirt!
                 </p>
               </li>
 
-              <li
-                class="item row mb-3 flex-nowrap align-items-center align-items-sm-start"
-              >
-                <img
-                  class="col-sm-1"
-                  src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
-                  alt="don'ts"
-                />
-                <p class="col-sm-10">
+              <li class="item row mb-3">
+                <div class="col-12 col-md-2 text-center mb-4 mb-md-0">
+                  <img
+                    class="img-fluid"
+                    src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
+                    alt="don'ts"
+                  />
+                </div>
+                <p class="col-12 col-md-10 pl-0 text-center text-md-left">
                   You are interested in receiving a sample of our machine's work
                   before making your purchase decision.
                 </p>
               </li>
-              <li
-                class="item row mb-3 flex-nowrap align-items-center align-items-sm-start"
-              >
-                <img
-                  class="col-sm-1"
-                  src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
-                  alt="don'ts"
-                />
-                <p class="col-sm-10">
+              <li class="item row mb-3">
+                <div class="col-12 col-md-2 text-center mb-4 mb-md-0">
+                  <img
+                    class="img-fluid"
+                    src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/check.svg"
+                    alt="don'ts"
+                  />
+                </div>
+                <p class="col-12 col-md-10 pl-0 text-center text-md-left">
                   You are a collector of patches and want to receive a verified
                   patch from a popular YouTube show.
                 </p>
               </li>
-              <li
-                class="item row mb-3 flex-nowrap align-items-center align-items-sm-start"
-              >
-                <img
-                  class="col-sm-1"
-                  src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/x.svg"
-                  alt="do's"
-                />
-                <p class="col-sm-10">
+
+              <li class="item row mb-3">
+                <div class="col-12 col-md-2 text-center mb-4 mb-md-0">
+                  <img
+                    class="img-fluid"
+                    src="https://cdn2.hubspot.net/hubfs/3019581/Free%20Patch%20Lead%20Magnet/x.svg"
+                    alt="do's"
+                  />
+                </div>
+                <p class="col-12 col-md-10 pl-0 text-center text-md-left">
                   You don't like receiving free items in the mail and aren't a
                   fan of Embroidery Hub.
                 </p>
@@ -292,34 +307,5 @@
     <!-- endinject -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="//stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script>
-      (() => {
-        function reportWindowSize() {
-          let width = window.innerWidth;
-
-          const img1 = document.querySelector('.img-container-1');
-          const img2 = document.querySelector('.img-container-2');
-          const pane1 = document.querySelector('.pane-1');
-          const pane2 = document.querySelector('.pane-2');
-          const heading1 = document.querySelector('.heading-1');
-          const heading2 = document.querySelector('.heading-2');
-          const pane1Els = pane1.children;
-          const pane2Els = pane2.children;
-
-          if (img1 && img2 && heading1 && heading2) {
-            if (width <= 990) {
-              heading1.insertAdjacentElement('afterend', img1);
-              heading2.insertAdjacentElement('afterend', img2);
-            } else if (pane1Els[pane1Els.length - 1] !== img1) {
-              pane1.insertAdjacentElement('beforeend', img1);
-            } else if (pane2Els[pane2Els.length - 1] !== img2) {
-              pane2.insertAdjacentElement('beforeend', img2);
-            }
-          }
-        }
-
-        window.addEventListener('resize', reportWindowSize);
-      })();
-    </script>
   </body>
 </html>

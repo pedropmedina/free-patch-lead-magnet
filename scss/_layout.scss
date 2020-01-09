@@ -7,6 +7,15 @@ body {
   margin: 0 auto;
 }
 
+#header {
+  .logo {
+    @media screen and (max-width: 576px) {
+      width: 163px;
+      margin: 0 auto;
+    }
+  }
+}
+
 #hero {
   .img-container {
     @media screen and (max-width: 576px) {
@@ -32,7 +41,7 @@ footer {
     .item {
       img {
         height: 33px;
-        width: 38px;
+        width: 38px !important;
       }
     }
   }
