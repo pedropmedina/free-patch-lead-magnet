@@ -13,6 +13,14 @@
   box-shadow: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+
+  &:active,
+  &:visited,
+  &:hover {
+    text-decoration: none;
+  }
 
   &.purple {
     background-color: #3c2099;
